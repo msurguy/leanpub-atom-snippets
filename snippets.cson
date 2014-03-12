@@ -1,0 +1,33 @@
+# Markdown snippets for Leanpub
+# Created by Maksim Surguy
+# If you need a launch page for your book, check out http://bookpag.es
+# Enjoy!
+
+'.source.gfm':
+  'lp-image':
+    'prefix' : 'lp-img'
+    'body': '![$1](images/$2)'
+  'lp-code' :
+    'prefix' : 'lp-code'
+    'body': '{title="Listing $1", lang=${2:html}, linenos=off}\n~~~~~~~\n$3\n~~~~~~~'
+  'lp-aside':
+    'prefix' : 'lp-aside'
+    'body': '>A ## $1\n>A $2'
+  'lp-info':
+    'prefix' : 'lp-info'
+    'body': '>I ## $1\n>I $2'
+  'lp-error':
+    'prefix' : 'lp-error'
+    'body': '>E ## $1\n>E $2'
+  'lp-question':
+    'prefix' : 'lp-question'
+    'body': '>Q ## $1\n>Q $2'
+  'lp-tip':
+    'prefix' : 'lp-tip'
+    'body': '>T ## $1\n>T $2'
+  'lp-warning':
+    'prefix' : 'lp-warning'
+    'body': '>W ## $1\n>W $2'
+  'lp-discussion':
+    'prefix' : 'lp-discussion'
+    'body': '>D ## $1\n>D $2'
