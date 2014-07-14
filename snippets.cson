@@ -35,3 +35,12 @@
   'lp-exercise':
     'prefix' : 'lp-exercise'
     'body': 'X> ## $1\nX>\nX> $2'
+  'lp-generic':
+    'prefix' : 'lp-generic'
+    'body': '{icon=${1:support}}\nG> ## $2\nG>\nG> $3'
+  'lp-pagebreak':
+    'prefix' : 'lp-pagebreak'
+    'body': '{pagebreak}'
+  'lp-poem':
+    'prefix' : 'lp-poem'
+    'body': '{style=poem}\n~~~~~~\n$1\n~~~~~~'
